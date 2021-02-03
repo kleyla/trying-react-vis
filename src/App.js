@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import Chart from "./components/Chart";
 
 function App() {
+  const [numX, setNumX] = useState(0);
+  const [numY, setNumY] = useState(0);
+  const [data, setData] = useState([]);
+
+  const getRandomInt = () => {
+    return Math.floor(Math.random() * (50 - 0)) + 0;
+  };
+
+  useEffect(() => {
+    const reading = setInterval(() => {
+      console.log("updated");
+      setNumX(numX + 1);
+      setNumY(getRandomInt());
+      setData([...data, { x: numX, y: numY }]);
+    }, 1000);
+    return () => {
+      clearInterval(reading);
+    };
+  }, [data]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1>Chart</h1>
+      <div>
+        <Chart data={data} />
+      </div>
     </div>
   );
 }
