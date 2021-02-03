@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/trying-react-vis/static/css/main.d79f513a.chunk.css",
+    "main.js": "/trying-react-vis/static/js/main.8ce7cfe8.chunk.js",
+    "main.js.map": "/trying-react-vis/static/js/main.8ce7cfe8.chunk.js.map",
+    "runtime-main.js": "/trying-react-vis/static/js/runtime-main.7f12f7e9.js",
+    "runtime-main.js.map": "/trying-react-vis/static/js/runtime-main.7f12f7e9.js.map",
+    "static/css/2.62e7949a.chunk.css": "/trying-react-vis/static/css/2.62e7949a.chunk.css",
+    "static/js/2.fc5f8162.chunk.js": "/trying-react-vis/static/js/2.fc5f8162.chunk.js",
+    "static/js/2.fc5f8162.chunk.js.map": "/trying-react-vis/static/js/2.fc5f8162.chunk.js.map",
+    "index.html": "/trying-react-vis/index.html",
+    "static/css/2.62e7949a.chunk.css.map": "/trying-react-vis/static/css/2.62e7949a.chunk.css.map",
+    "static/css/main.d79f513a.chunk.css.map": "/trying-react-vis/static/css/main.d79f513a.chunk.css.map",
+    "static/js/2.fc5f8162.chunk.js.LICENSE.txt": "/trying-react-vis/static/js/2.fc5f8162.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f12f7e9.js",
+    "static/css/2.62e7949a.chunk.css",
+    "static/js/2.fc5f8162.chunk.js",
+    "static/css/main.d79f513a.chunk.css",
+    "static/js/main.8ce7cfe8.chunk.js"
+  ]
+}
